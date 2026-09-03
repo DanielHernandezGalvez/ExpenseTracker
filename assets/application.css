@@ -242,6 +242,9 @@
   .ml-4 {
     margin-left: calc(var(--spacing) * 4);
   }
+  .block {
+    display: block;
+  }
   .flex {
     display: flex;
   }
@@ -523,9 +526,6 @@
     }
     .hover\:text-gray-900:hover {
       color: var(--color-gray-900);
-    }
-    .hover\:text-white:hover {
-      color: var(--color-white);
     }
   }
   .focus\:outline-none:focus {
